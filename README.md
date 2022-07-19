@@ -9,7 +9,7 @@ Calculadora simples para calcular valores de gorjetas com porcentagens livres
 [![JavaScript](https://img.shields.io/badge/JavaScript--yellow?style=flat&logo=javascript)]()
 [![HTML5](https://img.shields.io/badge/HTML--orange?style=flat&logo=html5)]()
 [![CSS3](https://img.shields.io/badge/CSS--blue?style=flat&logo=css3)]()
-[![Git](https://img.shields.io/badge/GIT--red?style=flat&logo=git)]()
+[![Git](https://img.shields.io/badge/GIT--red?style=flat&logo=git)](#)
 ## 🚀 Sobre mim
 Desde sempre envolvido por tecnologia, apaixonado pela área visual, 
 tive o primeiro contato com programação aos 16 anos, porém tomei 
