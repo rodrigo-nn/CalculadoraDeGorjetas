@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <script src="/js/script.js" defer></script>
+
+  <title>Calculadora de Gorjetas</title>
+
+
+</head>
+<!-- https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/hub/tip-calculator-app-rk-Le8mE9 -->
+
+<body>
+  <div class="main">
+    <h1 class="logo">GORJETÔMETRO</h1>
+    <div class="container">
+      <div class="calc">
+        <h3>Valor da conta:</h3>
+        <input class="input bill" type="number" placeholder="0,00">
+        <h3>Selecione a gorjeta %</h3>
+        <div class="buttons">
+          <button class="btn percent">5%</button class="btn">
+          <button class="btn percent">10%</button class="btn">
+          <button class="btn percent">15%</button class="btn">
+          <button class="btn percent">25%</button class="btn">
+          <button class="btn percent">50%</button class="btn">
+          <input class="input" id="custom" type="number" placeholder="Insira%">
+        </div>
+        <h3>Número de pessoas</h3>
+        <input class="input people" type="number" placeholder="1" value="1">
+      </div>
+      <div class="total">
+        <div>
+          <div class="perPerson">
+            <div>
+              <div class="title">Gorjeta</div>
+              <div class="subtitle">/ pessoa</div>
+            </div>
+            <div class="value" id="tipPerson">R$0,00</div>
+          </div>
+          <div class="perPerson">
+            <div>
+              <div class="title">Total</div>
+              <div class="subtitle">/ pessoa</div>
+            </div>
+            <div class="value" id="totalPerson">R$0,00</div>
+          </div>
+        </div>
+        <button class="btn selected reset">REDEFINIR</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
